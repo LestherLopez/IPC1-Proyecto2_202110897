@@ -25,6 +25,11 @@ app.get('/usuarios',(req,res)=>{
     res.send(db);
 })
 
+app.get('/pokemons',(req,res)=>{
+    var db = require('./pokemons.json');
+    res.send(db);
+})
+
 app.listen(app.get('port'),()=>{
     console.log('Servidor iniciado en el puerto: 4000');
 })

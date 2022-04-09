@@ -1,0 +1,52 @@
+[
+    {
+        "Numero": 54,
+        "Nombre": "Psyduck",
+        "Tipo":"Agua",
+        "Imagen":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
+        "Ataque":"Hidrochorro"
+    },
+    {
+        "Numero": 501,
+        "Nombre": "Oshawott",
+        "Tipo":"Agua",
+        "Imagen":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/501.png",
+        "Ataque":"Cascada"
+    },
+    {
+        "Numero": 183,
+        "Nombre": "Marill",
+        "Tipo":"Agua",
+        "Imagen":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/183.png",
+        "Ataque":"Hidrobomba"
+    },
+    {
+        "Numero": 61,
+        "Nombre": "Poliwhirl",
+        "Tipo":"Agua",
+        "Imagen":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
+        "Ataque":"Puño hielo"
+    },
+    {
+        "Numero": 7,
+        "Nombre": "Squirtle",
+        "Tipo": "Agua",
+        "Imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+        "Ataque": "Aqua cola"
+    },
+    {
+        "Numero": 4,
+        "Nombre": "Charmande",
+        "Tipo": "Fuego",
+        "Imagen":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+        "Ataque": "Lanzallamas"
+    },
+    {
+        "Numero": 6,
+        "Nombre": "Charizard",
+        "Tipo": "Fuego",
+        "Imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+        "Ataque": "Sofoco"
+    }
+
+]
