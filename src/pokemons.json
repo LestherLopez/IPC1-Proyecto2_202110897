@@ -36,7 +36,7 @@
     },
     {
         "Numero": 4,
-        "Nombre": "Charmande",
+        "Nombre": "Charmander",
         "Tipo": "Fuego",
         "Imagen":"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
         "Ataque": "Lanzallamas"
@@ -47,6 +47,62 @@
         "Tipo": "Fuego",
         "Imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
         "Ataque": "Sofoco"
+    },
+    {
+        "Numero": 155,
+        "Nombre": "Cyndaquil",
+        "Tipo": "Fuego",
+        "Imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png",
+        "Ataque": "Ascuas"
+    },
+    {
+        "Numero": 255,
+        "Nombre": "Torchic",
+        "Tipo": "Fuego",
+        "Imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/255.png",
+        "Ataque": "Arañazo"
+    },
+    {
+        "Numero": 667,
+        "Nombre": "Litleo",
+        "Tipo": "Fuego",
+        "Imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/667.png",
+        "Ataque": "Colmillo Igneo"
+    },
+    {
+        "Numero": 1,
+        "Nombre": "Bulbasaur",
+        "Tipo": "Hierba",
+        "Imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+        "Ataque": "Bomba Lodo"
+    },
+    {
+        "Numero": 252,
+        "Nombre": "Treecko",
+        "Tipo": "Hierba",
+        "Imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/252.png",
+        "Ataque": "Hierba lazo"
+    },
+    {
+        "Numero": 103,
+        "Nombre": "Exeggutor",
+        "Tipo": "Hierba",
+        "Imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
+        "Ataque": "Rayo solar"
+    },
+    {
+        "Numero": 331,
+        "Nombre": "Cacnea",
+        "Tipo": "Hierba",
+        "Imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/331.png",
+        "Ataque": "Golpe bajo"
+    },
+    {
+        "Numero": 44,
+        "Nombre": "Gloom",
+        "Tipo": "Hierba",
+        "Imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
+        "Ataque": "Tormenta floral"
     }
-
+    
 ]
