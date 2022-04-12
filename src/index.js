@@ -175,6 +175,9 @@ app.post('/pokemon-por-tipo',(req,res)=>{
         ]
         res.send(pgrass);
     }
+    else{
+        res.send({Mensaje:"Error"});
+    }
 }) 
 
 app.listen(app.get('port'),()=>{

@@ -1,0 +1,65 @@
+body {
+  background-image: url(pokemon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  background-attachment: fixed;
+  color: #050501;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-items: center;
+}
+body h1 {
+  margin: 0;
+  padding-bottom: 4rem;
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 1;
+  color: #e3cf1d;
+  -webkit-text-stroke: 5px #1517a4;
+  font-family:  Helvetica, Arial, sans-serif;
+  font-size: 7rem;
+  text-transform: uppercase;
+  animation: glow 2s ease-in-out infinite alternate;
+  text-align: center;
+}
+
+body button{
+  background-color: #e71919db;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  top: 80%;
+  right: 45%;
+}
+.login{
+  width: 400px;
+  height: 300px;
+  /*box-shadow: 7px 13px 37px #050501; */
+  position: absolute;
+  top: 55%;
+}
+.controls{
+  width: 94%;
+  border: 1px solid #017bab;
+  margin-bottom: 45px;
+  padding: 11px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 30px #0b0988;
+  }
+  to {
+    text-shadow: 0 0 40px #080bbc, 0 0 20px #4dbbc7;
+  }
+}
