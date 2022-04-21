@@ -8,14 +8,14 @@ function ingresar(){
         .catch(error => console.log(error))
 
     const mostrarData = (data) =>{
-        let acept = true;
+        let accept = true;
         for(let i=0; i<data.length; i++){ 
             if(username==data[i].Usuario   && password==data[i].Password){
-                acept = false;
+                accept = false;
                 document.location.assign('HTML/Home.html')
             }
         }
-        if(acept){
+        if(accept){
             alert("Error");
         }
     }
