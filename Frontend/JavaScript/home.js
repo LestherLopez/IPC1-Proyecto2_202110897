@@ -18,6 +18,9 @@ function fetchPokemons(number){
 }
 
 function creationCard(pokemon){
+
+  
+
   const card = document.createElement("div");
   card.classList.add("pokemon-block");
 
@@ -51,7 +54,15 @@ function creationCard(pokemon){
   card.appendChild(Ataque);
 
   pokemon_container.appendChild(card);  
-  console.log(pokemon.Numero); 
+ 
 }
 
+
+let prueba = localStorage.getItem('Usuario');
+NameUser(prueba)
+function NameUser(prueba){
+  console.log(prueba);
+  let NameUser = document.getElementById('NameUser');
+  NameUser.innerHTML = `<h1> ${prueba} </h1>`;
+}
 fetchPokemons(15);

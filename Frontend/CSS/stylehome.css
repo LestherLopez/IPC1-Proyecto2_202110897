@@ -1,8 +1,16 @@
 body{
 background-image: linear-gradient(to top, #000000, #2f1121, #6d2777, #7740b5, #a896f1 );
 }
-h1 {
+body h1 {
+  margin: 0;
+  padding-bottom: 4rem;
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 1;
   color: white;
+  font-family:  'Akshar', sans-serif;
+  font-size: 2rem;
+  right: 15%;
 }
 
 .pokemon_container {
@@ -12,10 +20,11 @@ h1 {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 40px;
-  margin-top: 20px;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  
 }
 
 .pokemon-block{
@@ -57,3 +66,40 @@ h1 {
   backface-visibility: hidden;
 }
 
+.Search{
+  border: 1px solid #017bab;
+  margin-bottom: 45px;
+  padding: 11px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.input-group-text{
+  border: 1px solid #017bab;
+  margin-bottom: 45px;
+  padding: 11px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.input {
+  width: 14%;
+  border: 1px solid #017bab;
+  margin-bottom: 45px;
+  padding: 11px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.button{
+  background-color: #e71919db;
+  border: none;
+  color: white;
+  padding: 15px 36px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+.button:hover{
+  opacity: .8;
+}
