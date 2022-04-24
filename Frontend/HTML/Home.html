@@ -10,30 +10,28 @@
 </head>
 <body>
     <div class="NameUser" id="NameUser">
-      
     </div>
+
     <div class="search_tools">
       <input  type="text" class="input" name="" id="Pokemon" placeholder="Nombre">
-      <button class="button" onclick="pokemonbyname();">BUSCAR</button>
+      <button class="button" onclick="pokemonbyname()">BUSCAR</button>
       <input  type="text" class="input" name="" id="Pokemon2" placeholder="Número">
-      <button class="button" onclick="pokemonbynumber(); ">BUSCAR</button>
-                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                  TIPO
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
+      <button class="button" onclick="pokemonbynumber()">BUSCAR</button>
+            <div class="btn-group mr-2" role="group" aria-label="First group">
+                <button type="button" onclick="pokemonfuego()"  class="btn btn-secondary">FUEGO</button>
+                <button type="button" onclick="pokemonagua()" class="btn btn-secondary">AGUA</button>
+                <button type="button" onclick="pokemonhierba()" class="btn btn-secondary">HIERBA</button>
+                <button type="button"  onclick="Index(15)" class="btn btn-secondary">TODOS</button>
     </div>
 
 
     <div class="pokemon_container" id="pokemon_container">
     </div>
 
-    
     <script src="../JavaScript/home.js" > </script>
     <script type="text/javascript" src="../JavaScript/pokemonbyname.js"></script>
     <script type="text/javascript" src="../JavaScript/pokemonbynumber.js"></script>
+    <script type="text/javascript" src="../JavaScript/pokemonbytype.js"></script>
+    <script type="text/javascript" src="../JavaScript/pokemons.js"></script>
 </body>
 </html>

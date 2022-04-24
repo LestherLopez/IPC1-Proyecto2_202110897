@@ -1,28 +1,24 @@
-async function pokemonbyname(){
+function pokemon(id){
+    let url = 'http://localhost:4000/pokemons'
+      fetch(url)
+          .then(response => response.json())
+          .then(data => mostrarData(data))
+          .catch(error => console.log(error))
+    
+      const mostrarData=(data) => {
+            creationCard(data[id]);
+          };       
+    }
+
+function Index(Number){
     document.getElementById('pokemon_container').innerHTML='';
     document.getElementById('pokemon_container').style.backgroundColor = '#46444e';
-    let url = 'http://localhost:4000/pokemon-por-nombre';
-    var PokemonName = document.getElementById('Pokemon').value;
-   
-  
-    const respuestas  = await fetch(url,{
-        method: 'POST', // or 'PUT'
-        body: JSON.stringify({
-            "namep": PokemonName}), // data can be `string` or {object}!
-        headers:{
-        'Content-Type': 'application/json'
-        }
-    })
-    .then(response => response.json())
-    .then(data =>  { return data
-    })
-    creationCard(respuestas)
-
+    for(let i=0; i<Number; i++){
+        pokemon(i);
+    }
 }
+
 function creationCard(pokemon){
-    
-    const pokemon_container = document.querySelector(".pokemon_container")
-    
     const card = document.createElement("div");
     card.classList.add("pokemon-block");
   

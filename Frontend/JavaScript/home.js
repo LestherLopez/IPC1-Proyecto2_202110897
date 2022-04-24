@@ -11,6 +11,7 @@ let url = 'http://localhost:4000/pokemons'
         creationCard(data[id]);
       };       
 }
+
 function fetchPokemons(number){
   for(let i=0; i<number; i++){
     fetchPokemon(i);

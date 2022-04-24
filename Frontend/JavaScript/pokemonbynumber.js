@@ -1,7 +1,7 @@
 
 async function pokemonbynumber(){
     document.getElementById('pokemon_container').innerHTML='';
-   
+    document.getElementById('pokemon_container').style.backgroundColor = '#46444e';
     let url = 'http://localhost:4000/pokemon-por-numero';
     var PokemonNumber = document.getElementById('Pokemon2').value;
    
