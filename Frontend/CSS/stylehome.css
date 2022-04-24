@@ -1,5 +1,6 @@
 body{
-background-image: linear-gradient(to top, #000000, #2f1121, #6d2777, #7740b5, #a896f1 );
+background-image: linear-gradient(to top, #46444e, #46444e, #46444e );
+
 }
 body h1 {
   margin: 0;
@@ -9,10 +10,12 @@ body h1 {
   z-index: 1;
   color: white;
   font-family:  'Akshar', sans-serif;
-  font-size: 2rem;
-  right: 15%;
+  font-size: 3rem;
+  right: 15%; 
 }
-
+.NameUser{
+  height: 60px;
+}
 .pokemon_container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -66,6 +69,10 @@ body h1 {
   backface-visibility: hidden;
 }
 
+.search_tools{
+ text-align: center;
+ 
+}
 .Search{
   border: 1px solid #017bab;
   margin-bottom: 45px;

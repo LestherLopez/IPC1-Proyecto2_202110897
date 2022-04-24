@@ -30,7 +30,7 @@ app.post('/pokemon-por-numero',(req,res)=>{
         res.send(apply); 
     }
     else{
-        res.send({Mensaje:"Error"});
+        res.send({alert:"Error"});
     }
     
 }) 
